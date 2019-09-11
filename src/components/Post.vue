@@ -3,7 +3,7 @@
    <g-link :to="post.path">
     <h2 v-html="post.title" />
      </g-link>
-    <div v-html="post.excerpt" />    
+    <div v-html="post.image" />    
   </div>
 </template>
 

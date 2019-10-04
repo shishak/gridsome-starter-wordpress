@@ -181,6 +181,8 @@ h2 {
    font-size: 0;
 }
 
-
+.box img:nth-of-type(2), .box img:nth-of-type(3), .box img:nth-of-type(4) {
+   display: none;
+}
 
 </style>

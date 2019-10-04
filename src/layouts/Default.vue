@@ -181,8 +181,12 @@ h2 {
    font-size: 0;
 }
 
-.grid-item img:nth-of-type(2), .grid-item img:nth-of-type(3), .grid-item img:nth-of-type(4) {
-   display: none;
+.grid-item div p {
+  display: none;
+}
+
+.grid-item div p:nth-of-type(1) {
+   display: block;
 }
 
 </style>

@@ -21,7 +21,7 @@ query Home ($page: Int) {
         id
         title
         path
-        excerpt
+        content
       }
     }
   }

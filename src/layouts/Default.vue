@@ -131,6 +131,11 @@ h2 {
     display: flex;
     padding: 0 10px;
 }
+
+.box table {
+  display: none;
+ }
+
   
 .box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30) {
    width: 50%; 

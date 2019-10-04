@@ -10,6 +10,7 @@
       </nav>
     </header>
     <slot/>
+    <site-footer/>
   </div>
 </template>
 

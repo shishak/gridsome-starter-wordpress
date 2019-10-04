@@ -1,10 +1,12 @@
 <template>
-  <Layout>   
-    <ul class="post-list">
-      <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
+  <Layout> 
+  <div class="container">
+    <div class="grid">
+      <div class="col box" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
-      </li>
-    </ul>
+      </div>
+    </div>
+   </div> 
     <Pager :info="$page.allWordPressPost.pageInfo"/>
   </Layout>
 </template>

@@ -66,22 +66,6 @@ h2 {
 
 
 
-.container {
-  max-width: 1200px;
-  padding: 10px;
-  margin: 0 auto; 
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
-
-
-
-
-
-
 
 .grid-item {
   display: flex;
@@ -173,7 +157,7 @@ h2 {
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
    display: none;
 }
-.grid-item:nth-of-type(1) div, .grid-item:nth-of-type(2) div, .grid-item:nth-of-type(3) div {
+.grid-item div {
    font-size: 0;
 }
 

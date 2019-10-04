@@ -1,9 +1,8 @@
 <template>
   <Layout> 
     <div class="grid">
-      <div class="box">
-      <div class="grid-item" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id"></div>
-        <Post :post="node" />       
+      <div class="box grid-item" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
+      <Post :post="node" />       
       </div>
     </div>
     <Pager :info="$page.allWordPressPost.pageInfo"/>

@@ -1,6 +1,6 @@
 <template>
-   <g-link :to="post.path">
-    <div v-html="post.content" class="grid-item" />
+   <g-link :to="post.path" class="grid-item">
+    <div v-html="post.content" />
     <h2 v-html="post.title" />
    </g-link>     
 </template>

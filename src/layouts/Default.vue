@@ -145,6 +145,18 @@ h2 {
 .grid-item {
     margin-bottom: 0.5rem;
 }
+
+ .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
+    color: #fff;
+    font-size: 34px;
+    line-height: 34px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 90%;
+}
+
+
 }
   
   
@@ -162,13 +174,13 @@ h2 {
 }
 	
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
-  color: #fff;
+        color: #fff;
     font-size: 34px;
     line-height: 34px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 20px;
-    margin-right: 20px;
+    max-width: 40%;
 }
 
 

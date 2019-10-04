@@ -1,8 +1,8 @@
 <template>
-   <h2 v-html="post.title" />
    <g-link :to="post.path">
-    <div v-html="post.content" />
-     </g-link>       
+   <h2 v-html="post.title" />
+   </g-link>  
+    <div v-html="post.content" />     
 </template>
 
 <script>

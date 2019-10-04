@@ -11,8 +11,8 @@
     </header>
     <slot/>
     <site-sidebar/>
+    <site-footer/>
   </div>
-   <site-footer/>
 </template>
 
 

@@ -150,8 +150,8 @@ h2 {
 }
 @media only screen and (min-width: 64em) {
 .box:nth-of-type(4) img, .box:nth-of-type(5) img {
-    margin-bottom: -200px;
-    max-height: 350px;
+    margin-bottom: -4px;
+    max-height: 300px;
 	
 }
  .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
@@ -163,7 +163,7 @@ h2 {
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
     color: #fff;
     font-size: 25px;
-	 
+    position: absolute;
 }
 .box:nth-of-type(4) .date-title-home, .box:nth-of-type(5) .date-title-home {
    color: #fff;

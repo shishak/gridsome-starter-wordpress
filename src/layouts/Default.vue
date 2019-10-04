@@ -90,6 +90,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-weight: 400;
+  padding: 25px;
 }
 
 

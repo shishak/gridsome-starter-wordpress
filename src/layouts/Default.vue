@@ -181,7 +181,7 @@ h2 {
    font-size: 0;
 }
 
-.box img:nth-of-type(2), .box img:nth-of-type(3), .box img:nth-of-type(4) {
+.grid-item img:nth-of-type(2), .grid-item img:nth-of-type(3), .grid-item img:nth-of-type(4) {
    display: none;
 }
 

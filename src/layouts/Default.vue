@@ -173,4 +173,10 @@ h2 {
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
    display: none;
 }
+.grid-item:nth-of-type(1) div, .grid-item:nth-of-type(2) div, .grid-item:nth-of-type(3) div {
+   display: none;
+}
+
+
+
 </style>

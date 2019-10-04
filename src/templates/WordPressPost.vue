@@ -22,6 +22,22 @@
   </Layout>
 </template>
 
+
+<script>
+import FormatedDate from "~/components/FormatedDate.vue"
+export default {
+  components: {
+    FormatedDate,
+  },
+  props: {
+    post: {
+      type: Object,
+      required: true
+    }
+  }
+}
+</script>
+
 <page-query>
 query Post ($path: String!) {
   wordPressPost (path: $path) {
@@ -42,10 +58,7 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-import FormatedDate from "~/components/FormatedDate.vue"
-
 export default {
-  FormatedDate,
   metaInfo () {
     return {
       title: this.$page.wordPressPost.title

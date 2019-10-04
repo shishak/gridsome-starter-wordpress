@@ -116,7 +116,7 @@ h2 {
 }
 .grid-item img {
   width: 100%;
-  max-height: 220px;
+ 
   object-fit: cover;
 }
 
@@ -155,12 +155,7 @@ h2 {
     line-height: 28px;
     font-weight: 500;
 }
-@media only screen and (min-width: 64em) {
-.box:nth-of-type(4) img, .box:nth-of-type(5) img {
-    
-    max-height: 300px;
-	
-}
+
  .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
     background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.24));
     height: 280px;

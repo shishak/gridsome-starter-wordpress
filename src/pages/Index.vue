@@ -11,7 +11,7 @@
 
 <page-query>
 query Home ($page: Int) {
-  allWordPressPost (page: $page, perPage: 10) @paginate {
+  allWordPressPost (page: $page, perPage: 33) @paginate {
     pageInfo {
       totalPages
       currentPage

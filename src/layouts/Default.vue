@@ -11,6 +11,33 @@
     </header>
     <slot/>
   </div>
+  <footer>
+ <div class="footer-container">
+    <section class="footer-main">
+      <article>
+       <h3>Learn</h3>
+        <ul>
+          <li><a href="#!">Guides</a></li>
+          <li><a href="#!">Reference</a></li>
+          <li><a href="#!">Samples</a></li>
+          <li><a href="#!">Libraries</a></li>
+          <li><a href="#!">Github</a></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Learn</h3>
+        <ul>
+          <li><a href="#!">Guides</a></li>
+          <li><a href="#!">Reference</a></li>
+          <li><a href="#!">Samples</a></li>
+          <li><a href="#!">Libraries</a></li>
+          <li><a href="#!">Github</a></li>
+        </ul>
+      </article>
+      <article> 
+  </div>
+  </footer>
+  
 </template>
 
 <style>
@@ -187,5 +214,34 @@ h2 {
 .grid-item div p:nth-of-type(1) {
    display: block;
 }
+
+
+
+
+footer{background:#f1f1f1;float:left;width:100%}
+
+.footer-main{display:grid;grid-gap:1rem;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-bottom:5em}
+
+.footer-container{margin:0 auto;max-width:1140px;padding:4em 0 2em}
+
+.footer-bottom{align-items:center;display:flex;justify-content:space-between}
+
+section{margin:1em 0}ul{list-style-type:none}
+
+.footer-bottom ul{align-items:center;display:flex;flex-direction:row;font-size:90%}
+
+.footer-bottom ul li{color:rgba(0,0,0,.7);margin:0 .5em}
+
+article{font-size:90%}
+
+article h3{color:rgba(0,0,0,.7);font-weight:400}
+
+article ul{color:rgba(0,0,0,.6);display:flex;flex-direction:column;margin-top:1em}
+
+article ul li{margin:.4em 0}
+
+article ul li a:hover{text-decoration:underline}
 
 </style>

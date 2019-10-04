@@ -26,7 +26,7 @@ nav[role="navigation"] a {
   margin: 1.0em 0.75em 2.0em;
 }
 .layout {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -117,12 +117,6 @@ h2 {
 }
 
 
-
- .container {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 10px;
-}
 .grid {
     display: flex;
     flex-wrap: wrap;

@@ -174,7 +174,7 @@ h2 {
    display: none;
 }
 .grid-item:nth-of-type(1) div, .grid-item:nth-of-type(2) div, .grid-item:nth-of-type(3) div {
-   display: none;
+   font-size: 0;
 }
 
 

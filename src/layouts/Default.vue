@@ -15,16 +15,7 @@
 
 <style>
 
-img {
-  max-width: 100%;
-}
-nav[role="navigation"] {
-  text-align: center;
-}
-nav[role="navigation"] a {
-  display: inline-block;
-  margin: 1.0em 0.75em 2.0em;
-}
+
 .layout {
   max-width: 1200px;
   margin: 0 auto;
@@ -39,21 +30,10 @@ nav[role="navigation"] a {
 .nav__link {
   margin-left: 20px;
 }
-.post-list {
-  list-style: none;
-  padding-left: 0;
-}
-.post-list li {
-  padding: 1em 0;
-}
 
 
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
 html {
   box-sizing: border-box;
   color: #303030;
@@ -116,7 +96,7 @@ h2 {
 }
 .grid-item img {
   width: 100%;
- height: 300px; 
+ 
   object-fit: cover;
 }
 
@@ -145,10 +125,13 @@ h2 {
         color: #fff;
     font-size: 34px;
     line-height: 34px;
-    position: absolute;
-    margin-top: 180px;
+    margin-top: -170px;
     margin-left: 20px;
     width: 500px;
+}
+
+.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
+   display: none;
 }
 
 
@@ -167,6 +150,10 @@ h2 {
     margin-top: 10px;
     margin-left: 10px;
     width: auto;
+}
+
+.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
+   display: block;
 }
 
 
@@ -188,9 +175,7 @@ h2 {
 
 
 
-.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
-   display: none;
-}
+
 .grid-item div {
    font-size: 0;
 }

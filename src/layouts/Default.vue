@@ -135,6 +135,18 @@ h2 {
 .box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30) {
    width: 50%; 
 }
+
+ .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
+        color: #fff;
+    font-size: 34px;
+    line-height: 34px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+
 @media all and (max-width: 800px) {
 .box {
    width: 100%;
@@ -173,15 +185,7 @@ h2 {
     
 }
 	
- .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
-        color: #fff;
-    font-size: 34px;
-    line-height: 34px;
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 20px;
-    width: 40%;
-}
+
 
 
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {

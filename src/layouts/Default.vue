@@ -143,7 +143,7 @@ h2 {
     position: absolute;
     margin-top: 180px;
     margin-left: 20px;
-    width: 40%;
+    width: 500px;
 }
 
 

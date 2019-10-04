@@ -159,7 +159,7 @@ h2 {
 }
 
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
-    margin-top: 10%;
+    margin-top: 10px;
     margin-left: 10px;
     width: auto;
 }

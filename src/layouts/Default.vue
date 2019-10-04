@@ -56,7 +56,24 @@ a {
 
 
 
-
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+ }
+.grid-item:hover {
+  cursor: pointer;
+}
+.grid-item img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
 
 
 

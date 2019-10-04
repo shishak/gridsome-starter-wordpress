@@ -1,7 +1,7 @@
 <template>
   <Layout> 
     <div class="grid">
-      <div class="box" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
+      <div class="box grid-item" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
       </div>
     </div>

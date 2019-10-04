@@ -159,13 +159,9 @@ h2 {
 }
 
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
-    color: #fff;
-    font-size: 30px;
-    line-height: 30px;
-    position: absolute;
-    margin-top: 0;
+    margin-top: 10%;
     margin-left: 10px;
-    width: 100%;
+    width: auto;
 }
 
 

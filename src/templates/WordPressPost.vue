@@ -51,23 +51,21 @@ export default {
 </script>
 
 <style>
-  ul.list {
-    list-style: none;
-    padding: 0;
-  }
-  ul.list li {
-    display: inline-block;
-    margin-right: 0.25em;
-  }
-  ul.list.tags li a {
-    padding: 0.25em 0.5em;
-    background-color: lightgray;
-  }
-  ul.list.categories li:after {
-    content: ',';
-    display: inline-block;
-  }
-  ul.list li:last-child:after {
-    content: '';
-  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.box {
+    width: 33.33%;
+    display: flex;
+    padding: 0 10px;
+}
+  
+  
 </style>

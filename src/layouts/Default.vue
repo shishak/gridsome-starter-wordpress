@@ -14,41 +14,119 @@
 </template>
 
 <style>
+
+
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  color: #303030;
+}
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  background: #fafafa;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #303030;
 }
 
-img {
-  max-width: 100%;
+.container {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto; 
 }
-
-nav[role="navigation"] {
-  text-align: center;
-}
-nav[role="navigation"] a {
-  display: inline-block;
-  margin: 1.0em 0.75em 2.0em;
-}
-
-.layout {
-  max-width: 900px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.header {
+.grid {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
-.nav__link {
-  margin-left: 20px;
+
+
+
+
+
+
+
+
+
+
+
+ .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
 }
-.post-list {
-  list-style: none;
-  padding-left: 0;
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
-.post-list li {
-  padding: 1em 0;
+.box {
+    width: 33.33%;
+    display: flex;
+    padding: 0 10px;
+}
+  
+.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
+   width: 50%; 
+}
+@media all and (max-width: 800px) {
+.box {
+   width: 100%;
+}
+.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
+   width: 100%;
+}
+.grid-item {
+    margin-bottom: 0.5rem;
+}
+}
+  
+  
+  
+  
+.grid p, .grid table{display:none}
+.grid p:nth-child(1) {
+	display:block;
+	margin:0;
+}
+.box:nth-of-type(2) h2, .box:nth-of-type(4) h2, .box:nth-of-type(8) h2, .box:nth-of-type(9) h2, .box:nth-of-type(13) h2, .box:nth-of-type(14) h2, .box:nth-of-type(17) h2, .box:nth-of-type(22) h2 {
+   font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+}
+@media only screen and (min-width: 64em) {
+.box:nth-of-type(4) img, .box:nth-of-type(5) img {
+    margin-bottom: -200px;
+    max-height: 350px;
+	
+}
+ .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
+    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.24));
+    height: 280px;
+    margin-top: -250px;
+}
+	
+ .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
+    color: #fff;
+    font-size: 25px;
+	 
+}
+.box:nth-of-type(4) .date-title-home, .box:nth-of-type(5) .date-title-home {
+   color: #fff;
+   opacity: .7;
+}
+}
+.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
+   display: none;
 }
 </style>

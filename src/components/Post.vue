@@ -2,8 +2,8 @@
   <div>
    <g-link :to="post.path">
     <h2 v-html="post.title" />
-     </g-link>
-       <div v-html="$page.wordPressPost.content"/>
+     </g-link>       
+    <div v-html="post.content" />
   </div>
 </template>
 

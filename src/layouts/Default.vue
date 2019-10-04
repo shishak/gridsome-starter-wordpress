@@ -177,8 +177,7 @@ h2 {
 
 .box:nth-of-type(2) h2, .box:nth-of-type(4) h2, .box:nth-of-type(8) h2, .box:nth-of-type(9) h2, .box:nth-of-type(13) h2, .box:nth-of-type(14) h2, .box:nth-of-type(17) h2, .box:nth-of-type(22) h2 {
    font-family: Roboto,Helvetica,Arial,sans-serif;
-    line-height: 28px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
  .grid-item:nth-of-type(4), .grid-item:nth-of-type(5) {

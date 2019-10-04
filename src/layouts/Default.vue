@@ -32,7 +32,7 @@
 }
 
 
-
+*,:after,:before{box-sizing:inherit}
 
 html {
   box-sizing: border-box;

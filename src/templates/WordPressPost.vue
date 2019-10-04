@@ -25,7 +25,6 @@
 query Post ($path: String!) {
   wordPressPost (path: $path) {
     title
-    date
     content
     categories {
       id

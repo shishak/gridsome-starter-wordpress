@@ -2,7 +2,7 @@
   <Layout> 
   <div class="container">
     <div class="grid">
-      <div class="col box" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
+      <div class="box" v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
       </div>
     </div>

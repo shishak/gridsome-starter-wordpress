@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <h1 v-html="$page.wordPressPost.title"/>
+    <formated-date class="post-date" :date="post.date"/>
     <div v-html="$page.wordPressPost.content"/>
     <template v-if="$page.wordPressPost.categories.length">
       <h4>Posted in</h4>
@@ -41,7 +42,10 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
+import FormatedDate from "~/components/FormatedDate.vue"
+
 export default {
+  FormatedDate,
   metaInfo () {
     return {
       title: this.$page.wordPressPost.title

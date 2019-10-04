@@ -10,18 +10,15 @@
       </nav>
     </header>
     <slot/>
-     <site-sidebar/>
     <site-footer/>
   </div>
 </template>
 
 
 <script>
-import SiteSidebar from '~/components/SiteSidebar.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 export default {
   components: {
-    SiteSidebar,
     SiteFooter
   }
 }

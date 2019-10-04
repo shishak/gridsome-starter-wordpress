@@ -151,9 +151,9 @@ h2 {
     font-size: 30px;
     line-height: 30px;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 0;
     margin-left: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -180,7 +180,7 @@ h2 {
     position: absolute;
     margin-top: 180px;
     margin-left: 20px;
-    max-width: 40%;
+    width: 40%;
 }
 
 

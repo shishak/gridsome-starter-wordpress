@@ -83,4 +83,46 @@ export default {
 }
 }
   
+  
+  
+  
+.grid p, .grid table{display:none}
+.grid p:nth-child(1) {
+	display:block;
+	margin:0;
+}
+
+.box:nth-of-type(2) h2, .box:nth-of-type(4) h2, .box:nth-of-type(8) h2, .box:nth-of-type(9) h2, .box:nth-of-type(13) h2, .box:nth-of-type(14) h2, .box:nth-of-type(17) h2, .box:nth-of-type(22) h2 {
+   font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 64em) {
+.box:nth-of-type(4) img, .box:nth-of-type(5) img {
+    margin-bottom: -200px;
+    max-height: 350px;
+	
+}
+ .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
+    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.24));
+    height: 280px;
+    margin-top: -250px;
+}
+	
+ .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
+    color: #fff;
+    font-size: 25px;
+	 
+}
+.box:nth-of-type(4) .date-title-home, .box:nth-of-type(5) .date-title-home {
+   color: #fff;
+   opacity: .7;
+}
+}
+
+.box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
+   display: none;
+}
+  
 </style>

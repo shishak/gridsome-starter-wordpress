@@ -128,14 +128,14 @@ h2 {
     padding: 0 10px;
 }
   
-.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
+.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30) {
    width: 50%; 
 }
 @media all and (max-width: 800px) {
 .box {
    width: 100%;
 }
-.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
+.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30) {
    width: 100%;
 }
 .grid-item {
@@ -145,12 +145,7 @@ h2 {
   
   
   
-  
-.grid p, .grid table{display:none}
-.grid p:nth-child(1) {
-	display:block;
-	margin:0;
-}
+
 .box:nth-of-type(2) h2, .box:nth-of-type(4) h2, .box:nth-of-type(8) h2, .box:nth-of-type(9) h2, .box:nth-of-type(13) h2, .box:nth-of-type(14) h2, .box:nth-of-type(17) h2, .box:nth-of-type(22) h2 {
    font-family: Roboto,Helvetica,Arial,sans-serif;
     line-height: 28px;
@@ -158,7 +153,7 @@ h2 {
 }
 @media only screen and (min-width: 64em) {
 .box:nth-of-type(4) img, .box:nth-of-type(5) img {
-    margin-bottom: -4px;
+    
     max-height: 300px;
 	
 }
@@ -172,11 +167,12 @@ h2 {
     color: #fff;
     font-size: 25px;
     position: absolute;
+    margin-top: -130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 33%;
 }
-.box:nth-of-type(4) .date-title-home, .box:nth-of-type(5) .date-title-home {
-   color: #fff;
-   opacity: .7;
-}
+
 }
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
    display: none;

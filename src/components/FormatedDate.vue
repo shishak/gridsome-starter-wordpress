@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     formatedDate() {
-      return moment(this.date).fromNow();
+      return moment(this.date).fromNow().locale('uk_UA');
     }
   }
 }

@@ -167,10 +167,9 @@ h2 {
     font-size: 34px;
     line-height: 34px;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 33%;
 }
 
 

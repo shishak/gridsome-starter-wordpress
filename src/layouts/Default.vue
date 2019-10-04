@@ -173,7 +173,7 @@ h2 {
     width: 33%;
 }
 
-}
+
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
    display: none;
 }

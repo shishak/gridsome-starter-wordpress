@@ -9,8 +9,6 @@
         <g-link class="nav__link" to="/about">About</g-link>
       </nav>
     </header>
-    
-    <site-sidebar/>
     <slot/>
     <site-footer/>
   </div>
@@ -18,23 +16,13 @@
 
 
 <script>
-36
-import SiteSidebar from '~/components/SiteSidebar.vue'
-37
 import SiteFooter from '~/components/SiteFooter.vue'
-38
 export default {
-39
   components: {
-40
     SiteSidebar,
-41
     SiteFooter
-42
   }
-43
 }
-44
 </script>
 
 

@@ -156,10 +156,9 @@ h2 {
     font-weight: 500;
 }
 
- .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
+ .grid-item:nth-of-type(4), .grid-item:nth-of-type(5) {
     background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.24));
-    height: 280px;
-    margin-top: -250px;
+    
 }
 	
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {

@@ -1,12 +1,6 @@
 <template>
   <Layout>
     <h1 v-html="$page.wordPressPost.title"/>
-    <img
-      v-if="$page.wordPressPost.featuredMedia"
-      :src="$page.wordPressPost.featuredMedia.sourceUrl"
-      :width="$page.wordPressPost.featuredMedia.mediaDetails.width"
-      :alt="$page.wordPressPost.featuredMedia.altText"
-    />
     <div v-html="$page.wordPressPost.content"/>
     <template v-if="$page.wordPressPost.categories.length">
       <h4>Posted in</h4>
@@ -32,13 +26,6 @@ query Post ($path: String!) {
   wordPressPost (path: $path) {
     title
     content
-    featuredMedia {
-      sourceUrl
-      altText
-      mediaDetails {
-        width
-      }
-    }
     categories {
       id
       title

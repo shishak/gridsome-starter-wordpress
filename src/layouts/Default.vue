@@ -39,6 +39,33 @@ a {
   color: #303030;
 }
 
+
+
+
+h1, h2 {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 8px;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 50px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+
+
+
 .container {
   max-width: 1200px;
   padding: 10px;

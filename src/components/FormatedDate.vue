@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     formatedDate() {
-      return moment(this.date).locale('en_gb').format("dddd, MMMM Do YYYY, h:mm:ss a")
+      return moment(this.date).locale('ua_UK').format("dddd, MMMM Do YYYY, h:mm:ss a")
     }
   }
 }

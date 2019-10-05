@@ -65,7 +65,9 @@ a {
   color: #303030;
 }
 
-
+.post-date {
+  font-size: 10px;
+ }
 
 
 h1, h2 {
